@@ -1,0 +1,178 @@
+:root{
+    --backgroundColor:#1F2937;
+    --buttonColor:#3882F6;
+    --buttonActiveColor:#3963a8;
+    --quoteSection:#E5E7EB;
+    --lightTextColor:#F9FAF8;
+    
+}
+body{
+    margin:0;
+    font-size: 16px;
+}
+.wrapper{
+    width: 99vw;
+    font-family:  Garamond, serif;
+
+        
+}
+.top-block{
+    display: flex;
+    flex-direction: column;
+    color:var(--lightTextColor);
+    background-color: var(--backgroundColor);
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+.header{
+    display: flex;
+    justify-content:space-around;
+    padding-bottom: 2rem;
+
+}
+.links{
+    
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    padding-left: 23vw;
+
+}
+a{
+    margin-left: 1.5rem;
+    color: var(--quoteSection);
+    text-decoration: none;
+
+}
+a:hover{
+    color: #CCC;
+}
+h1{
+    font-size: 3rem;
+}
+.container-top-part{
+    display:flex;
+    justify-content: center;
+    width:80vw;
+    
+}
+.container-text-top{
+    width: 50%;
+    margin-right: 12vw;
+}
+button{
+    font-weight: bold;
+    float: right;
+    background-color: var(--buttonColor);
+    color: var(--lightTextColor);
+    border-radius: 2rem;
+    padding:.5rem 2rem;
+}
+#top-button{
+    border:none;
+}
+
+.header p{
+    font-size: 1.125rem;
+    color: var(--lightTextColor);
+}
+
+#top-img{
+    max-width: 50vw;
+ 
+    
+}
+.start-middle-block{
+    margin: 0 10vw;
+    padding-bottom: 2rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+}
+.middle-block{
+    display:flex;
+    color:var(--backgroundColor);
+    font-size:1rem;
+    justify-content: space-between;
+    
+}
+.start-middle-block h2{
+    font-size: 2.25rem;
+    font-weight: bold;
+    
+}
+.middle-block img{
+    border: 2px solid var(--buttonColor);
+
+    border-radius: 10%;
+}
+
+.cite-block{
+    
+    color: var(--backgroundColor);
+    font-style: italic;
+    font-size: 2.25rem;
+    background-color: var(--quoteSection);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+.cta-block{
+    
+    width:65vw;
+    border-radius: 2rem;
+    display:flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    background-color: var(--buttonColor);
+    color: var(--lightTextColor);
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.cta-block button{
+    align-self: flex-end;
+}
+.cta-holder{
+    padding: 2rem 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-block h3{
+    font-size: 1.125rem;
+}
+.footer{
+    text-align: center;
+    color: var(--lightTextColor);
+    background-color: var(--backgroundColor);
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 1rem;
+}
+span{
+    float: right;
+    font-weight: bold;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+button:hover{
+    background-color: var(--buttonActiveColor);
+    
+}
+
+#github{
+    padding: 2px;
+    margin: 0;
+    color: var(--lightTextColor);
+}
